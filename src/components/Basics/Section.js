@@ -1,4 +1,4 @@
-import Header from "./Header"
+import Header from "../Housing Product/Header"
 import Product from "./Products"
 
 export default function Section(){

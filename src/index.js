@@ -2,16 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Header  from './components/Header';
-import Section from './components/Section';
-import Cart from './components/Cart';
+import Header  from './components/Housing Product/Header';
+import Section from './components/Basics/Section';
+import Cart from './components/Basics/Cart';
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <Header/>
+    {/* <Header/> */}
   </React.StrictMode>
 );
 

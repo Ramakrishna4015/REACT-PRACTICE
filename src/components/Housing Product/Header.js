@@ -1,4 +1,4 @@
-import Heading from "./Heading"
+import Heading from "../Basics/Heading"
    export default function Header(){
         return(
             <header>
