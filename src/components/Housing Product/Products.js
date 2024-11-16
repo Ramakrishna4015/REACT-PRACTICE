@@ -8,6 +8,7 @@ const Product = (props)=>{
                 <p>{props.price}</p>
                 <p>{props.rating}</p>
                 <p>{props.type}</p>
+                <p>{props.available? "in stock":"out of stock"}</p>
                 <button>Add to Cart</button>
         </section>
     )
