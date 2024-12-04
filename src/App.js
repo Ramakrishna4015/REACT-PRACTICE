@@ -15,9 +15,10 @@ function App() {
     <>
     <Header/>
     <Title/>
-    <Product name = "Queen panel bed " type ="Household" ratings ="4" price ="2500" image = "#" available = {true}/>
+    {/* <Product name = "Queen panel bed " type ="Household" ratings ="4" price ="2500" image = "#" available = {true}/>
     <Product name = "Dresser " type ="furniture" ratings ="3" price ="3200" image = "#" available = {false}/>
-    <Product name = "Queen panel bed " type ="Household" ratings ="4" price ="2500" image = "#" available/>
+    <Product name = "Queen panel bed " type ="Household" ratings ="4" price ="2500" image = "#" available/> */}
+    <wrapper/>
     </>
   );
 }
