@@ -5,6 +5,7 @@ import Section from './components/Basics/Section';
 import Title from './components/Housing Product/Title';
 import Product from './components/Housing Product/Products';
 import { Wrapper } from './components/Housing Product/Wrapper';
+import { StateExample } from './components/States/StateExample';
 
 function App() {
   let userInfo = {
@@ -31,6 +32,9 @@ function App() {
     <Product name = "Dresser " type ="furniture" ratings ="3" price ="3200" image = "#" available = {false}/>
     <Product name = "Queen panel bed " type ="Household" ratings ="4" price ="2500" image = "#" available/> */}
     <wrapper obj = {userInfo} nums ={[1,2,3,4,5]} fun ={caller}/>
+
+
+    <StateExample/>
     </>
   );
 }
